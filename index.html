@@ -11,6 +11,7 @@
         <h1>{{message}}</h1>
         <p>{{text}}</p>
         <!-- <div :h1="message"></div> non posso fare cosi per creare un h1 dinamico oltre al baffo? -->
+        <img :src="image" :class="imageSize" @click="imageSwap()" class="border rounded" alt="vueMeme">
     </div>
 
 
